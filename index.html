@@ -42,11 +42,11 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a style="background-color: crimson;" href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a style="background-color: crimson;" href="#about" class="nav-link scrollto"><i  class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a style="background-color: crimson;" href="#skills" class="nav-link scrollto"><i class="bi bi-hammer"></i> <span>Skills</span></a></li>
-        <li><a style="background-color: crimson;" href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
-        <li><a style="background-color: crimson;" href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i  class="bx bx-user"></i> <span>about</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-hammer"></i> <span>Skills</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav>
 
@@ -57,7 +57,7 @@
     <div class="containerc containerc1 " data-aos="zoom-in" data-aos-delay="100">
       <h1 class="greetings">HELLO 👋, I'M</h1>
       <h1>MARTIN KARANI</h1>
-      <p>I'm <span style="color: crimson;font-weight: 700;font-family: cursive;" class="typed" data-typed-items="CS student, Developer, Freelancer"></span></p>
+      <p>I'm <span style="color: crimson;font class="typed" data-typed-items="CS student, Developer, Freelancer"></span></p>
       <div class="contact_btn">
         <a href="#contact"><button>Contact Me</button></a>
         <a href=""></a>
@@ -79,7 +79,7 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p style="opacity: 0;">
+          <p id="spacer" style="opacity: 0;">
             eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
             Cupiditate ut dicta maxime officiis quidem quia. Se</p>        </div>
 
@@ -105,11 +105,11 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i style="color: #2e3333;" class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+254 704847676</span></li>
-                  <li><i style="color: #2e3333;" class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>emqarani@gmail.com</span></li>
-                  <li><i style="color: #2e3333;" class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
-                  <li><i style="color: #2e3333;" class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc Computer Science (ongoing)</span></li>
-                  <li><i style="color: #2e3333;" class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+              class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+254 704847676</span></li>
+              class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>emqarani@gmail.com</span></li>
+              class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
+              class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc Computer Science (ongoing)</span></li>
+              class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
@@ -243,14 +243,100 @@
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Top 3</li>
+              <li data-filter="*" class="filter-active" style="color: #dc143c;">Top 3</li>
             </ul>
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200" style="margin-left: 10vw;">
 
 
+
+
+
+
+
+
+
+
+<div class="project_slider" style="display:noe;">
+  
+<div id="slider">  
+  <div class="slide" style="background:dodgerlue;">
+
+    <div class="portfolio-info prjd">
+      <h4>Java Games (java)</h4>
+      <p>
+
+        <br>• In this project I   developed 3 java console games using the Java swing Library
+        <br>1.  Snake Game
+        <br> 2. Ping Pong Game
+        <br> 3. Brick Breaker Game
+        <br>• In all three games I implemented features such as Keyboard Control, Collision detection and a Scoring system 
+        <br>• While developing this games I gained valuable experience in software development using java programing language
+
+      </p>
+      <div class="portfolio-links">
+        <a href="https://github.com/Qarani-m/JAVA-GAMES" target="_blank" style="position: relative;z-index: 99;"  class="portfolio-details-lighbox" >
+          <img src="assets/icons/github.svg" style="height: 3vh;filter: blur(0px); margin-left:0%;">
+        </a>
+      </div>
+    </div>
+    <img src="assets/img/projects/project-1.png" >
+
+  </div>
+  
+  <div class="slide" style="background: #dc43c;">
+   
+    <div class="portfolio-info prjd">
+                <h4>Video Stream (Python)</h4>
+                <p>
+
+                  <br>
+• The app is written in Python. Main Libraries used are the python in-built socket library and threading library among others. To work, the app uses the Server client model where the server   records its host’s screen send byte streams as frames to client.
+<br>
+• the client creates a display window  using the Opencv python library and displays the frames it received   as a video 
+<br>
+• The server uses both UDP and TCP protocols to send frames to the clients
+                </p>
+      <div class="portfolio-links">
+        <a href="https://github.com/Qarani-m/pyhton-socket-video-stream" target="_blank" style="position: relative;z-index: 99;"  class="portfolio-details-lighbox" > <img src="assets/icons/github.svg" style="height: 3vh;filter: blur(0px); margin-left:0%;"></a>
+      </div>
+    </div>
+    <img src="assets/img/projects/project2.png" >
+  </div>
+ 
+  <div class="slide" style="background:crimsn;">
+     
+    <div class="portfolio-info prjd">
+                      <h4>Chat App(Node.js & Fluter)</h4>
+                <h4>Under Development</h4>
+                <p style="font-size: .7rem;">      <br>• I am currently developing a chat app for mobile devices that aims to provide users with a seamless and intuitive way to communicate with their friends and family. The app is built using a range of technologies and services, including Firebase for authentication, Socket.IO and socket_io_dart for real-time communication, and various APIs for additional features such as file sharing and group video calls. The App will use a Node.js server on the backend and Mysql database for data persistence
+                <br>• The app includes a range of UI screens, including a login screen, sign up screen, home screen, chats screen, profile screen, group info screen, and 3 on boarding screens
+                <br>• The Node.js CRUD Api and  the UI screens are complete 
+                <br>• Overall, my chat app aims to provide users with a fast and reliable way to communicate with their friends and family, and I am excited to continue working on it and adding new features to enhance the user experience.
+</p>
+      <div class="portfolio-links">
+        <a href="https://github.com/Qarani-m/flutterChatApp" target="_blank" style="position: relative;z-index: 99;"  class="portfolio-details-lighbox" > <img src="assets/icons/github.svg" style="height: 3vh;filter: blur(0px); margin-left:0%;"></a>
+      </div>
+    </div>
+    <img src="assets/img/projects/project-3.png" >
+  </div>
+  
+
+  
+  <!--Controlling arrows-->
+  <span class="rrws"  class="controls" onclick="prevSlide(-1)" id="left-arrow"><img class="arrws arrws1" src="assets/icons/chevron-left.svg"></span>
+  <span class="rrws" class="controls" id="right-arrow" onclick="nextSlide(1)"><img class="arrws arrws2" src="assets/icons/chevron-right.svg">
+</span>
+</div>
+  <div id="dots-con">
+ <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+ </div>
+
+</div>
+
+
+        <div class="row portfolio-container prjcc" data-aos="fade-up" data-aos-delay="200" style="margin-left: 10vw; display: nne;">
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="height: 63vh; width: 25vw;border: 1px solid #dc143c;border-radius: 2vw; margin-left: 5vw;">
             <div class="portfolio-wrap" style="height: 63vh;">
               <img src="assets/img/projects/project-1.png" class="img-fluid" alt="" style="height: 63vh;object-fit: cover;">
@@ -276,7 +362,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="height: 63vh; width: 25vw; border: 1px solid #dc143c;border-radius: 2vw;margin-left: 3vw;">
             <div class="portfolio-wrap">
-              <img src="assets/img/projects/project-2.png" class="img-fluid" alt="">
+              <img src="assets/img/projects/project2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Screen share (Python)</h4>
                 <p>
@@ -454,3 +540,52 @@
 </body>
 <!-- baxxippksleyokfw -->
 </html>
+
+
+
+
+
+<script type="text/javascript">
+  var slides = document.querySelectorAll(".slide");
+var dots = document.querySelectorAll(".dot");
+var index = 0;
+
+
+function prevSlide(n){
+  index+=n;
+  console.log("prevSlide is called");
+  changeSlide();
+}
+
+function nextSlide(n){
+  index+=n;
+  changeSlide();
+}
+
+changeSlide();
+
+function changeSlide(){
+    
+  if(index>slides.length-1)
+    index=0;
+  
+  if(index<0)
+    index=slides.length-1;
+  
+  
+  
+    for(let i=0;i<slides.length;i++){
+      slides[i].style.display = "none";
+      
+      dots[i].classList.remove("active");
+      
+      
+    }
+    
+    slides[index].style.display = "block";
+    dots[index].classList.add("active");
+
+  
+
+}
+</script>
