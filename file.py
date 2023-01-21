@@ -9,4 +9,4 @@ print(key)
 text = "This is text"
 
 
-enc = 
+print(text)
