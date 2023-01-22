@@ -1,0 +1,9 @@
+  #nvl_{
+    background: #dc143c
+  }
+  #nvli_:onhover{
+    color: #fff
+  }
+  .col-lg-4{
+  	object-fit: cover;margin-top: -15vh
+  }
