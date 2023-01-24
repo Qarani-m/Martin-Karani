@@ -1,0 +1,86 @@
+ <!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!--title---------------------->
+<title>Portfolio Section</title>
+<!--Stylesheet----------------------------------->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<!--Light-Box-css-------------------------------->
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--===Project-Section======================================================-->
+  <section id="project">
+    <!--heading--------------->
+    <div class="project-heading">
+      <span>Let's See My Work</span>
+      <h3>MY PROJECTS</h3>
+    </div>
+    <!--filter--------->
+    <ul class="portfolio-filter">
+      <li class="list portfolio-filter-active" data-filter="all">All</li>
+      <li class="list" data-filter="app">Application</li>
+      <li class="list" data-filter="appdesign">App Design</li>
+      <li class="list" data-filter="web">Website Designs</li>
+      <li class="list" data-filter="ai">AI</li>
+  </ul>
+  <!--container--------->
+  <div class="portfolio-container">
+    <!--1------------>
+    <a href="images/b-1.jpg" class="portfolio-box app" data-lightbox="work">
+    <img src="projet2.png" >
+      
+    </a>
+    <!--2------------>
+    <a href="images/b-2.jpg" class="portfolio-box app" data-lightbox="work">
+    <img src="projet2.png" >
+
+    </a>
+    <!--3------------>
+    <a href="images/b-3.jpg" class="portfolio-box appdesign" data-lightbox="work">
+    <img src="projet2.png" >
+
+    </a>
+    <!--4------------>
+    <a href="images/b-4.jpg" class="portfolio-box web" data-lightbox="work">
+      
+    </a>
+    <!--5------------>
+    <a href="images/b-5.jpg" class="portfolio-box web" data-lightbox="work">
+    </a>
+    <!--6------------>
+    <a href="images/b-6.jpg" class="portfolio-box ai" data-lightbox="work">
+    </a>
+  </div>
+  </section>
+  <!--js---------------------------------->
+<!--   <script src="js/JQuery.js"></script>
+  <script src="js/lightbox.min.js"></script>
+  <script>
+    /*blog-filter-menu----------------------------*/
+    $(document).on('click','.portfolio-filter li',function(){
+            $(this).addClass('portfolio-filter-active').siblings().removeClass('portfolio-filter-active')
+        });
+        
+     /*portfolio-filter---------------------------------*/
+     $(document).ready(function(){
+            $('.list').click(function(){
+                const value = $(this).attr('data-filter');
+                if(value == 'all'){
+                    $('.portfolio-box').show('1000');
+                }
+                else{
+                    $('.portfolio-box').not('.'+value).hide('1000');
+                    $('.portfolio-box').filter('.'+value).show('1000');
+                }
+            });
+        });
+  </script> -->
+</body>
+</html>
+  
+  
