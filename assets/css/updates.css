@@ -9,7 +9,20 @@
   }
 
 
+  #portfoli2{
+    display: none
 
+  }
+  @media (max-width:876px){
+    .portf{
+      display: none;
+    }
+    #portfoli2{
+          display: block;
+    }
+    
+  
+  }		
 
   .container_{
 		width: 64vw;
