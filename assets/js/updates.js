@@ -17,3 +17,20 @@
 			arr_btn[arg].style.opacity=1;
 			projects[arg].style.display="block";
 	}
+
+
+
+	const send_email=()=>{
+		Email.send({
+			Host : "smtp.elasticemail.com",
+			Username : "emqarani@gmail.com",
+			Password : "dotty7982",
+			To : 'emqarani1@gmail.com',
+			From : "emqarani@gmail.con",
+			Subject : "This is the subject",
+			Body : "And this is the body"
+		}).then(
+		  message => alert(message)
+		);
+
+	}
